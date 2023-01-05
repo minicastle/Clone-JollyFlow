@@ -77,7 +77,7 @@ function NotFound() {
                 <Contents>
                     <p style={{fontSize:"96px",fontFamily:"Boska",fontWeight:"bold",textDecoration:"underline"}}>Not Found</p>
                     <span style={{fontSize:"70px",fontFamily:"Boska",fontWeight:"bold"}}>404 Error</span>
-                    <Link to="/" style={{textDecoration:"none"}}><HomeButton>Go to Home</HomeButton></Link>
+                    <Link to="/Clone-JollyFlow" style={{textDecoration:"none"}}><HomeButton>Go to Home</HomeButton></Link>
                     <MessageDeco top={0} left={0}src="https://assets.website-files.com/63954148546a8e750c6f5e13/63954dd7fd907e616861154c_postcard-stamps.png" alt=""/>
                     <MessageDeco bottom={0} right={0} deg={180} src="https://assets.website-files.com/63954148546a8e750c6f5e13/63954dd7fd907e616861154c_postcard-stamps.png" alt=""/>
                 </Contents>
