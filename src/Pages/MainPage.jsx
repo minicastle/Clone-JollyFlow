@@ -18,6 +18,7 @@ const Section = styled.div`
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 0 0 100px;
 `;
 const GapWrap = styled.div`
     display: flex;
@@ -107,6 +108,7 @@ const CardView = styled.div`
     justify-content: center;
     align-items: center;
     width: 50%;
+    max-width: 700px;
 `;
 const Viewer = styled.img`
     width: 100%;
@@ -126,10 +128,12 @@ const Cards = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    max-width: 700px;
     margin-bottom: 30px;
 `;
 const Card = styled.img`
     width: 15%;
+    max-width: 100px;
 `;
 const MessageCard = styled.div`
     width: 50%;
@@ -265,7 +269,7 @@ function MainPage({card,title,message,name,handleSetName,handleSetTitle,handleSe
             </Section>
             <Section ref={section4}>
                 <Header>Share Your Message</Header>
-                <img src='https://assets.website-files.com/63954148546a8e750c6f5e13/63954a6aa689c7e1740da40d_santa%20with%20deers_angle%201.webp' alt='' style={{width:"40%",marginBottom:"20px"}} />
+                <img src='https://assets.website-files.com/63954148546a8e750c6f5e13/63954a6aa689c7e1740da40d_santa%20with%20deers_angle%201.webp' alt='' style={{width:"40%",maxWidth:"500px",marginBottom:"20px"}} />
                 <TextLine>
                     <TextType2>The Evil Twins Have</TextType2>
                     <TextType2>Prepared Your Message!</TextType2>
