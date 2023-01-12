@@ -137,6 +137,7 @@ const Card = styled.img`
 `;
 const MessageCard = styled.div`
     width: 50%;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -33,6 +33,21 @@
 ---
 ## 3. 개발이후 생각한 사이트 개선점
 ---
+### 1. 이미지 로딩 오류
+ - 기존 페이지는 이미지 모두의 로딩을 lazy로 설정하여 로딩시간을 조절하여 리소스를 줄이는데 중점을 두었지만 <br>
+ 페이지를 구성하는 요소중 로딩에 영향을 끼치는 부분이 적은 부분은 로딩을 뒤로 미루지 않고도 유지할 수 있을 정도의 가벼운 페이지입니다. <br>
+ 따라서 Snow flake같은 화면 구성시 리소스가 적은 이미지는 로딩을 lazy로 설정하는 것이 아닌 component가 로드 될때 바로 받아오거나 <br>
+ 혹은 source에 포함시켜서 반복되는 리소스를 감소시키는 것이 좋은 방법이었다고 생각합니다.
+
+<img src='https://github.com/minicastle/Clone-JollyFlow/blob/master/readmeimage/error1.PNG' width="300px">
+
+### 2. 카드 이미지의 사이트 통일
+ - 기존 페이지는 카드 선택 페이지의 이미지들이 통일된 사이즈를 가지지 않았기 때문에 카드를 선택 할 당시 카드의 이미지가 밀려보이게 되었습니다. <br> 
+ **이러한 부분은 사이트의 완성도에 영향을 줄수 있는 오류**이기 때문에 카드 이미지의 사이즈를 제작당시 통일하여 만들어야 합니다. <br>
+ 혹은 이미지를 담고있는 container의 사이즈를 지정하고 display:flex, justifyContents:center, alignItems:center로 스타일을 지정하여 사용한다면 이미지의 사이즈와 상관없이 가운데에 표시되도록 할 수 있습니다.
+
+<img src='https://github.com/minicastle/Clone-JollyFlow/blob/master/readmeimage/error2.PNG' width="300px">
+
 ---
 ### ◤ 정성민의 다른 프로젝트 ◢
 | Project Name              | Source Code           | Original Site             |
