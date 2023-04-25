@@ -69,14 +69,6 @@ function App() {
           <Route path='/Card/:CardNumber' element={
             <>
               <CardViewer
-              view1={view1}
-              view2={view2} 
-              view3={view3}
-              view4={view4}
-              view5={view5}
-              title={title}
-              message={message}
-              name={name}
               ></CardViewer>
             </>
           }/>
